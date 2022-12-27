@@ -8,7 +8,7 @@ function creditsPage(){
     textSize(60);
     text('Credits', 300, 100);
     textSize(33);
-    text('Developers: Liam, Clara, Makena, Nico', 300, 200);
+    text('Developers: William, Clara, Makena, Nico', 300, 200);
     strokeWeight(1);
     textSize(30);
     text('American Flag Map', 300, 300);
