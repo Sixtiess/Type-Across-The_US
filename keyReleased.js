@@ -1,6 +1,6 @@
 //key released
 function keyReleased() {
-  if (inpt.charAt(index) == key) { //CORRECT TYPED
+  if ((inpt.charAt(index).toLowerCase() == key.toLowerCase())) { //CORRECT TYPED
     index++;
     typed += key;
     f = frameCount;

@@ -6,7 +6,7 @@ function drawSwitch() {
     fill(24, 201, 24);
     rect(20, 520, 80, 40);
     fill(200);
-    rect(20, 520, 40, 40);
+    rect(60, 520, 40, 40);
     textSize(18);
     stroke(0);
     text('Easy', 80, 535);

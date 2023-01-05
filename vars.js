@@ -3,9 +3,10 @@ let states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorad
 
 let capitals = ['Montgomery', 'Juneau', 'Phoenix', 'Little Rock', 'Sacramento', 'Denver', 'Hartford', 'Dover', 'Tallahassee', 'Atlanta', 'Honolulu', 'Boise', 'Springfield', 'Indianapolis', 'Des Moines', 'Topeka', 'Frankfort', 'Baton Rouge', 'Augusta', 'Annapolis', 'Boston', 'Lansing', 'Saint Paul', 'Jackson', 'Jefferson City', 'Helena', 'Lincoln', 'Carson City', 'Concord', 'Trenton', 'Santa Fe', 'Albany', 'Raleigh', 'Bismarck', 'Columbus', 'Oklahoma City', 'Salem', 'Harrisburg', 'Providence', 'Columbia', 'Pierre', 'Nashville', 'Austin', 'Salt Lake City', 'Montpelier', 'Richmond', 'Olympia', 'Charleston', 'Madison', 'Cheyenne'];
 
-let capitalX = [414, 155, 141, 344, 55, 216, 529, 512, 440, 436, 245, 117, 374, 404, 330, 309, 421, 363, 547, 499, 543, 416, 332, 377, 346, 160, 297, 77, 536, 516, 205, 510, 490, 258, 437, 294, 57, 494, 540, 468, 265, 404, 290, 150, 521, 495, 62, 455, 371, 219];
 
-let capitalY = [249, 399, 242, 225, 165, 165, 110, 149, 276, 232, 386, 102, 164, 156, 138, 173, 180, 285, 68, 150, 99, 119, 99, 261,181,77,148,155,86,133,220,97,194,73,150,220,81,131,110,220,106,204,287,150,77,172,53,168,117,145];
+let capitalX = [401, 145, 133, 333, 53, 203, 493, 477, 426, 420, 237, 111, 362, 390, 308, 299, 407, 350, 529, 482, 525, 401, 320, 363, 333, 154, 287, 75, 519, 499, 198, 493, 472, 248, 422, 283, 53, 477, 510, 450, 255, 389, 279, 144, 502, 476, 58, 438, 357, 211];
+
+let capitalY = [248, 398, 241, 224, 164, 164, 109, 149, 276, 231, 385, 101, 164, 155, 138, 172, 180, 286, 68, 150, 99, 118, 98, 259, 180, 74, 148, 156, 86, 133, 220, 97, 192, 72, 146, 218, 80, 130, 108, 219, 105, 202, 286, 148, 74, 171, 52, 166, 115, 144];
 
 let lineList = [];
 

@@ -34,7 +34,7 @@ function textBox() {
 
 function showLetters(){
   for (let i = 0; i <= capitals[statePicker].length; i++) {
-    if (typed.charAt(i) == inpt.charAt(i)) {
+    if (typed.charAt(i).toLowerCase() == inpt.charAt(i).toLowerCase()) {
       stroke(0, 255, 0);
       fill(0, 150, 0);
     } else {

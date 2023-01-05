@@ -1,8 +1,8 @@
 //game page
 function gamePage() {
   background(200);
-  image(map, 0, 0);
-  map.resize(600, 450);
+  image(mp, 0, 0);
+  mp.resize(600, 450);
   carRight.resize(100, 100);
   carLeft.resize(100, 100);
   if (stepX >= 0) {
@@ -14,9 +14,8 @@ function gamePage() {
   capStar.display();
   pop();
   textBox();
-  //text()
   exitButton();
-
+  text(round(mouseX,0)+','+round(mouseY,0),70,10);
   if (winner) { //TYPING IS COMPLETE
     carX += stepX;
     carY += stepY;

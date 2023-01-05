@@ -11,5 +11,3 @@ function exitButton(){
   hitBox(500, 458, 80, 35, 1);
   
 }
-
-

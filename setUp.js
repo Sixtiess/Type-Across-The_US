@@ -1,19 +1,19 @@
 //preload and setuo
 function preload() {
-  workSans = loadFont("WorkSans-VariableFont_wght.ttf");
-  dottedFont = loadFont("Jardotty-R946.ttf");
-  pacifico = loadFont("Pacifico-Regular.ttf");
-  rajdhani = loadFont("Rajdhani-Medium.ttf");
+  workSans = loadFont("images-fonts/WorkSans-VariableFont_wght.ttf");
+  dottedFont = loadFont("images-fonts/Jardotty-R946.ttf");
+  pacifico = loadFont("images-fonts/Pacifico-Regular.ttf");
+  rajdhani = loadFont("images-fonts/Rajdhani-Medium.ttf");
 
-  map = loadImage("50-us-state-capitals-map-quiz.png");
-  //Photo Credit: © Free Study Maps
+   mp = loadImage("images-fonts/usa-map.jpg");
+  //Photo Credit: Makena Taylor
 
 
-  flag = loadImage("usa-flag.png");
-  //Photo Credit: nazlisart
+  flag = loadImage("images-fonts/usaflag.png");
+  //Photo Credit: Makena Taylor
 
-  carLeft = loadImage("coolbus(left).png");
-  carRight = loadImage("coolbus.png");
+  carLeft = loadImage("images-fonts/coolbus(left).png");
+  carRight = loadImage("images-fonts/coolbus.png");
 
 }
 
@@ -29,5 +29,6 @@ function setup() {
   f = frameCount;
   index = 0;
   capStar = new Star(capitalX[statePicker], capitalY[statePicker], .08);
+  creditStar = new Star(296.5,174,.05);
   console.log(carRight.width, carRight.height);
 }
