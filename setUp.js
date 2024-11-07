@@ -19,6 +19,7 @@ function preload() {
 
 function setup() {
   cnv = createCanvas(600, 600);
+  cnv.position(windowWidth/2-width/2,windowHeight/2-height/2)
   cnv.mouseClicked(toggleCheck);
 
   textAlign(CENTER, CENTER);
